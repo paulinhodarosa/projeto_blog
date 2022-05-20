@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300, 400, 600, 700&display=swap');
+
+:root {
+    --azul-forte: #051367;
+    --roxo: #2D31FA;
+    --azul: #5D8BF4;
+    --claro: #DFF6FF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    background: var(--azul-forte);
+}
+
+body, button, input, select,textarea {
+    font-family: 'Inter', sans-serif;
+    color: var(--claro);
+}
+
+h1{
+    font-size: 44px;
+}
+
+h2 {
+    font-size: 20px;
+    color: var(--claro)
+}
+/* define a margem e a gordura da fonte */
+h1, h2 {
+    margin: 0px;
+    font-weight: 700;
+}
+
+p {
+    color: var(--claro);
+
+}
+
+button {
+    background: var(--roxo);
+    border: 0;
+    border-radius: 12px;
+    padding: 8px 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header {
+    /* background: red; */
+    height: calc(100vh - 65px);
+    display: flex;
+    align-items: center;
+}
+
+header .container {
+    width: 50%;
+    height: fit-content;
+    padding: 0 150px;
+}
+
+header .container img {
+    display: none;
+
+}
+
+header .container h1 {
+    color: var(--azul);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    /* background: var(--azul-forte); */
+    padding: 0 35px;
+    position: sticky;
+    top: 0;
+}
+
+nav img {
+    height: 60px;
+}
+
+nav ul a {
+    font-size: 24px;
+    color: var(--claro);
+    text-decoration: none;
+    margin: 0 45px;
+    font-weight: bold;
+
+}
+
+section {
+    background: purple;
+    height: 1000px;
+}
+
+@media(max-width:767px) {
+
+    header .container {
+        width: 100%;
+    }
+
+    header .container img{
+        display: inline;
+        height: 45px;
+        margin-bottom: 75px;
+    }
+    nav img {
+        display: none;
+    }
+    
+}
