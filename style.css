@@ -121,20 +121,48 @@ nav ul a svg {
     height: 100%;
 }
 
-.about-me .img-container .line {
-    width: calc(50% + 50px);
-    height: calc(100% + 50px);
-    border: 4px solid var(--roxo);
+/*.about-me .img-container .line {
+    width: calc(50% + 60px);
+    height: calc(105% + 40px);
+    border: 3px solid var(--roxo);
 
     position: absolute;
-    top: -25px;
+    top: -40px;
     left: calc(50% - 50%/2 - 25px);
-}
+} 
 
 .about-me .img-container .line.green {
-    transform: rotate(-5.3deg);
-    border: 4px solid var(--azul);
-}
+    width: calc(50% + 70px);
+    height: calc(100% + 60px);
+    border: 3px solid var(--azul);
+
+    position: absolute;
+    top: -20px;
+    left: calc(50% - 50%/2 - 50px);
+    
+} */
+
+.about-me .img-container .line.meio {
+    width: calc(50% + 110px);
+    height: calc(100% + 55px);
+    border: 3px solid var(--azul);
+
+    position: absolute;
+    top: 100px;
+    left: calc(50% - 50%/2 - 55px);
+    
+} 
+
+.about-me .img-container .line.meioum {
+    width: calc(10% + 50px);
+    height: calc(100% + 110px);
+    border: 3px solid var(--azul);
+
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50%/2 + 110px);
+    
+} 
 
 @media(max-width:767px) {
 
