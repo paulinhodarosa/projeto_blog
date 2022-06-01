@@ -110,9 +110,30 @@ nav ul a svg {
     padding-right: 50px;
 }
 
+.about-me .img-container {
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+
 .about-me .img-container img {
-    width: 100%;
+    width: 50%;
     height: 100%;
+}
+
+.about-me .img-container .line {
+    width: calc(50% + 50px);
+    height: calc(100% + 50px);
+    border: 4px solid var(--roxo);
+
+    position: absolute;
+    top: -25px;
+    left: calc(50% - 50%/2 - 25px);
+}
+
+.about-me .img-container .line.green {
+    transform: rotate(-5.3deg);
+    border: 4px solid var(--azul);
 }
 
 @media(max-width:767px) {
