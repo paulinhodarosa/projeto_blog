@@ -113,7 +113,7 @@ nav ul a svg {
 .about-me .img-container {
     width: 50%;
     text-align: center;
-    position: relative;
+    position: relative;  
 }
 
 .about-me .img-container img {
@@ -121,39 +121,37 @@ nav ul a svg {
     height: 100%;
 }
 
-/*.about-me .img-container .line {
+.about-me .img-container .line {
     width: calc(50% + 60px);
     height: calc(105% + 40px);
-    border: 3px solid var(--roxo);
-
+    border: 2px solid var(--roxo);
     position: absolute;
     top: -40px;
-    left: calc(50% - 50%/2 - 25px);
+    left: calc(50% - 50%/2 - 15px);
+    
 } 
-
 .about-me .img-container .line.green {
-    width: calc(50% + 70px);
-    height: calc(100% + 60px);
-    border: 3px solid var(--azul);
-
+    width: calc(50% + 60px);
+    height: calc(105% + 40px);
+    border: 2px solid var(--azul);
     position: absolute;
     top: -20px;
-    left: calc(50% - 50%/2 - 50px);
-    
-} */
-
+    left: calc(50% - 50%/2 - 35px);
+  
+}
+/* 
 .about-me .img-container .line.meio {
-    width: calc(50% + 110px);
-    height: calc(100% + 55px);
+    width: calc(55% + 110px);
+    height: calc(15% + 60px);
     border: 3px solid var(--azul);
 
     position: absolute;
     top: 100px;
-    left: calc(50% - 50%/2 - 55px);
+    left: calc(50% - 50%/2 - 70px);
     
-} 
+}  */
 
-.about-me .img-container .line.meioum {
+/* .about-me .img-container .line.meioum {
     width: calc(10% + 50px);
     height: calc(100% + 110px);
     border: 3px solid var(--azul);
@@ -162,7 +160,7 @@ nav ul a svg {
     top: -50px;
     left: calc(50% - 50%/2 + 110px);
     
-} 
+} */
 
 @media(max-width:767px) {
 
