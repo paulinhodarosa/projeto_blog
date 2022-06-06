@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300, 400, 600, 700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300, 400, 600, 700, 900&display=swap');
 
 :root {
     --azul-forte: #051367;
@@ -32,7 +32,7 @@ h2 {
 /* define a margem e a gordura da fonte */
 h1, h2 {
     margin: 0px;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 p {
@@ -161,6 +161,40 @@ nav ul a svg {
     left: calc(50% - 50%/2 + 110px);
     
 } */
+
+.serv-container h1 {
+ 
+    text-align: center;
+    position: relative;  
+}
+
+.serv-container .line.primeiro span {
+    content: "";
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    background: white;
+    position: absolute;
+    left: 15.5%;
+
+
+
+}
+
+.serv-container .line.primeiro {
+    background: var(--azul);
+    margin: 10%;
+    width: 300px;
+    height: 399px;
+    border-radius: 15px;
+    left: calc(50% - 50%/2 + 35px);
+    padding: 99px 133px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: 3px solid var(--claro);
+}
+
 
 @media(max-width:767px) {
 
