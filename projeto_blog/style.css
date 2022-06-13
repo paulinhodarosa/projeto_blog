@@ -78,10 +78,16 @@ nav {
     align-items: center;
     justify-content: space-between;
     height: 75px;
-    /* background: var(--azul-forte); */
+    background: var(--azul-forte);
     padding: 0 35px;
     position: sticky;
     top: 0;
+    z-index: 5;
+}
+
+
+nav img {
+    height: 60px;
 }
 
 nav ul a {
@@ -91,15 +97,6 @@ nav ul a {
     margin: 0 45px;
     font-weight: bold;
 
-}
-
-nav img {
-    height: 60px;
-}
-
-
-nav ul a svg {
-    display: none;
 }
 
 .about-me {
@@ -121,6 +118,7 @@ nav ul a svg {
 .about-me .img-container img {
     width: 50%;
     height: 100%;
+    z-index: 0;
 }
 
 .about-me .img-container .line {
@@ -176,7 +174,7 @@ nav ul a svg {
 
 .servicos .serv-container .cpu-container{
     background: var(--azul);
-    padding: 150px 100px;
+    /* padding: 150px 100px; */
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
@@ -193,6 +191,7 @@ nav ul a svg {
     /* font-weight: bold; */
     /* font-size: 18px; */
     border: 3px solid var(--claro);
+    padding-top: 20px
 
 }
 
@@ -239,11 +238,120 @@ nav ul a svg {
 
 .servicos .serv-container .cpu-container h2 {
     font-size: 20px;
-    padding-top: 120px;
+    padding-top: 150px;
     white-space: nowrap;
     
 }
 
+.curriculo h1 {
+    text-align: center;
+    color: var(--claro);
+    padding-top: 150px;
+}
+
+.curriculo h3 {
+    padding: 5px;
+    text-align: left;
+    font-weight: normal;
+    
+}
+
+.curriculo .text-container {
+    padding-top: 100px;
+    padding-right: 150px;
+    display: inline-block;
+    padding-left: 1px;
+}
+
+.curriculo .tudo {
+    padding: 20px;
+    display: inline-flex;
+    padding-right: 50px;
+}
+
+.curriculo .tudo span img {
+    width: 90%;
+    height: 105%;
+    padding-right: 150px;
+}
+
+.botao {
+    background: var(--roxo);
+    border: 0;
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: 3px solid var(--claro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trabalhe-comigo {
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 150px;
+}
+
+.trabalhe-comigo h1 {
+    padding-top: 200px;
+    padding-bottom: 25px;
+}
+
+.trabalhe-comigo p {
+    padding-bottom: 15px;
+}
+
+.botao2 {
+    background: var(--roxo);
+    border: 0;
+    border-radius: 23px;
+    padding-right: 20px;
+    padding-left: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    height: 75px;
+   
+}
+
+.trabalhe-comigo section {
+    padding-top: 100px;
+}
+
+.trabalhe-comigo section img {
+    width: 120px;
+    height: 70px;
+}
+
+.trabalhe-comigo section svg {
+    width: 90px;
+    height: 70px;
+}
+
+.trabalhe-comigo .insta{
+    color: #8b1371;
+}
+
+.trabalhe-comigo .tt{
+    color: #1DA1F2;
+}
+
+.trabalhe-comigo .face{
+    color: #3b5998;
+}
+
+footer {
+    text-align: center;
+}
+
+.trabalhe-comigo footer {
+    padding-top: 80px;
+}
 
 /* .serv-container .line.primeiro {
     background: var(--azul);
@@ -294,12 +402,12 @@ nav ul a svg {
 
     nav ul a {
         font-size: 12px;
-        z-index: 1;
+        /* z-index: 5; */
     }
 
     nav ul a svg {
         display: block;
         margin: 0 auto 10px;
-        z-index: 1;
+        /* z-index: 1; */
     }
 }
